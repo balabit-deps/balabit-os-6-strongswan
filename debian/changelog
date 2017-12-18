@@ -1,3 +1,10 @@
+strongswan (5.3.5-1ubuntu3.5) xenial; urgency=medium
+
+  * d/p/ikev1-First-do-PSK-lookups-lp1734207.patch ensure evaluation
+    with resolvable hostnames selects the right PSK (LP: #1734207).
+
+ -- Christian Ehrhardt <christian.ehrhardt@canonical.com>  Mon, 18 Dec 2017 11:22:24 +0100
+
 strongswan (5.3.5-1ubuntu3.4) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Fix RSA signature verification
