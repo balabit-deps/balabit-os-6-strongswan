@@ -1,3 +1,9 @@
+strongswan (5.3.5-1ubuntu3.5bb1) xenial; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Wed, 14 Feb 2018 18:38:03 +0100
+
 strongswan (5.3.5-1ubuntu3.5) xenial; urgency=medium
 
   * d/p/ikev1-First-do-PSK-lookups-lp1734207.patch ensure evaluation
