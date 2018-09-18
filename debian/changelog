@@ -1,3 +1,24 @@
+strongswan (5.3.5-1ubuntu3.7) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Insufficient input validation in gmp plugin
+    - debian/patches/strongswan-5.3.1-5.6.0_gmp-pkcs1-verify.patch: don't
+      parse PKCS1 v1.5 RSA signatures to verify them in
+      src/libstrongswan/plugins/gmp/gmp_rsa_private_key.c,
+      src/libstrongswan/plugins/gmp/gmp_rsa_public_key.c.
+    - CVE-2018-16151
+    - CVE-2018-16152
+  * SECURITY UPDATE: remote denial of service
+    - debian/patches/strongswan-5.0.1-5.4.0_skeyseed_init.patch: properly
+      initialize variable in src/libcharon/sa/ikev2/keymat_v2.c.
+    - CVE-2018-10811
+  * SECURITY UPDATE: DoS in stroke plugin
+    - debian/patches/strongswan-5.1.2-5.6.2_stroke_msg_len.patch: ensure a
+      minimum message length in
+      src/libcharon/plugins/stroke/stroke_socket.c.
+    - CVE-2018-5388
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 18 Sep 2018 11:05:18 +0200
+
 strongswan (5.3.5-1ubuntu3.5) xenial; urgency=medium
 
   * d/p/ikev1-First-do-PSK-lookups-lp1734207.patch ensure evaluation
