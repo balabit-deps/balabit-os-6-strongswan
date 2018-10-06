@@ -1,3 +1,9 @@
+strongswan (5.3.5-1ubuntu3.8bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 06 Oct 2018 04:25:46 +0200
+
 strongswan (5.3.5-1ubuntu3.8) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Insufficient input validation in gmp plugin
