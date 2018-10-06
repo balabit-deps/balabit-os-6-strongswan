@@ -11,3 +11,4 @@ ikev1-First-do-PSK-lookups-lp1734207.patch
 strongswan-5.3.1-5.6.0_gmp-pkcs1-verify.patch
 strongswan-5.0.1-5.4.0_skeyseed_init.patch
 strongswan-5.1.2-5.6.2_stroke_msg_len.patch
+strongswan-4.4.0-5.7.0_gmp-pkcs1-overflow.patch
